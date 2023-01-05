@@ -1,0 +1,132 @@
+.primary_color {
+    -fx-background-color: #181818;
+}
+
+.secondary-color {
+    -fx-background-color: #121212;
+}
+
+{
+    -darkBackground: #181818;
+    -green: #1ab26b;
+    -fill: #ADADAD;
+}
+
+
+.top-border {
+    -fx-border-color: #A1A1A1;
+    -fx-border-width: 1 0 0 0;
+}
+
+.root {
+    -fx-background-color: -darkBackground;
+}
+
+.text-field1 {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 20;
+    -fx-text-fill: -fill;
+    -fx-font-size: 16;
+    -fx-highlight-fill: -green;
+}
+
+.text-field2 {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 8;
+    -fx-text-fill: #181818;
+    -fx-font-size: 15;
+    -fx-highlight-fill: -green;
+    -fx-accent: -green;
+}
+
+.button {
+    -fx-font-size: 16;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 20;
+    -fx-background-color: -green;
+}
+
+.button:hover {
+    -fx-scale-y: 1.05;
+    -fx-scale-x: 1.05;
+}
+.button:pressed {
+    -fx-scale-y: 0.95;
+    -fx-scale-x: 0.95;
+}
+
+.progress-bar {
+	-fx-accent: -green;
+
+}
+
+.menu-bars{
+    -fx-background-color: #121212;
+}
+
+.menu-bars .label {
+
+    -fx-font-weight: bold;
+    -fx-font-size: 16;
+}
+.menu-bars .label:hover {
+       -fx-scale-y: 1.02;
+      -fx-scale-x: 1.02;
+}
+
+
+
+.imageView:hover {
+     -fx-scale-y: 1.05;
+     -fx-scale-x: 1.05;
+
+}
+
+.imageView:pressed {
+     -fx-scale-y: 0.95;
+     -fx-scale-x: 0.95;
+}
+
+.love:pressed {
+     -fx-scale-y: 0.9;
+     -fx-scale-x: 0.9;
+}
+
+.imageCover:hover {
+     -fx-scale-y: 1.05;
+     -fx-scale-x: 1.05;
+}
+
+.imageCover:pressed {
+     -fx-scale-y: 0.95;
+     -fx-scale-x: 0.95;
+}
+
+.top-menu{
+     -fx-font-size: 12;
+     -fx-text-fill: white;
+     -fx-accent: #282828;
+     -fx-background-color: #282828;
+
+}
+
+.top-menu .label{
+     -fx-font-size: 12;
+     -fx-text-fill: #1ab26b;
+
+}
+
+.user-button{
+    -fx-font-size: 16;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 20;
+    -fx-background-color: -green;
+}
+
+
+
+
+
+
+
+

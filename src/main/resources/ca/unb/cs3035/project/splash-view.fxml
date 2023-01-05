@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" stylesheets="@style.css" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ca.unb.cs3035.project.SplashScreenController">
+    <VBox prefHeight="658.0" prefWidth="472.0" styleClass="root">
+       <children>
+          <VBox prefHeight="386.0" prefWidth="472.0" />
+          <HBox alignment="BOTTOM_CENTER" prefHeight="124.0" prefWidth="480.0" stylesheets="@style.css">
+             <children>
+                <ImageView fx:id="logo" fitHeight="111.0" fitWidth="346.0" pickOnBounds="true" preserveRatio="true">
+                   <image>
+                      <Image url="@images/spotify_logo_green.png" />
+                   </image>
+                </ImageView>
+             </children>
+          </HBox>
+          <VBox prefHeight="323.0" prefWidth="472.0" />
+          <VBox prefHeight="259.0" prefWidth="472.0" spacing="15.0">
+             <children>
+                <HBox prefHeight="35.0" prefWidth="315.0" spacing="10">
+                    <children>
+                      <Label text="LOADING" textFill="WHITE">
+                         <font>
+                            <Font name="System Bold" size="13.0" />
+                         </font>
+                      </Label>
+                      <ProgressBar fx:id="progressBar" prefWidth="200.0" progress="0.0" styleClass="progress-bar" stylesheets="@style.css" GridPane.columnIndex="1" />
+                   </children>
+                </HBox>
+             </children>
+             <padding>
+                <Insets left="100.0" right="100.0" />
+             </padding>
+          </VBox>
+       </children>
+    </VBox>
+</AnchorPane>
