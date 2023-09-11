@@ -2,28 +2,49 @@
 
 Developed a desktop application using JavaFX that replicated many of the core features of Spotify, including the ability to play, pause, skip songs, save songs to favourites, and upload new songs to the application. 
  
+## Table of Contents
 
-## Splash Screen + Login View
+- [Demo](#demo)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
+## Demo 
+
+#### Login
 <p align="center">
-  <img width="275" height="400" src="https://user-images.githubusercontent.com/80433013/210896904-4722cd9d-90a3-4062-9cc1-42076efe7028.JPG">
-  <img width="275" height="400" src="https://user-images.githubusercontent.com/80433013/210896894-7eeb39fb-9294-462e-9c7f-af16be99a5e6.JPG">
+  <img width="275" height="366" src="https://github.com/lhunter3/Spotify-Media-Player/blob/main/loading.JPG">
+  <img width="275" height="366" src="https://github.com/lhunter3/Spotify-Media-Player/blob/main/login.JPG">
 </p>
 
-## Main Views 
-
+#### Home
 <p align="center">
-  <img width="560" height="400" src="https://user-images.githubusercontent.com/80433013/210896900-a9b3287a-b8c2-4444-b264-dd0f707f4b53.JPG">
+  <img width="560" height="400" src="https://github.com/lhunter3/Spotify-Media-Player/blob/main/home.JPG">
 </p>
 
+#### Library
 <p align="center">
-  <img width="560" height="400" src="https://user-images.githubusercontent.com/80433013/210896902-4d7d3f1f-8f0c-406b-9f10-bc088659767d.JPG">
+  <img width="560" height="400" src="https://github.com/lhunter3/Spotify-Media-Player/blob/main/library.JPG">
 </p>
 
+#### Liked Songs
 <p align="center">
-  <img width="560" height="400" src="https://user-images.githubusercontent.com/80433013/210896896-799b07eb-47aa-4dc7-b7df-5c253185597e.JPG">
+  <img width="560" height="400" src="https://github.com/lhunter3/Spotify-Media-Player/blob/main/fav.JPG">
 </p>
 
+#### Help Page
 <p align="center">
-  <img width="560" height="400" src="https://user-images.githubusercontent.com/80433013/210896899-ea386715-1581-44fe-8c40-58984f9a6a9d.JPG">
+  <img width="560" height="400" src="https://github.com/lhunter3/Spotify-Media-Player/blob/main/help.JPG">
 </p>
+
+## Usage
+To use this project, Clone and Build this repository. 
+
+## Contributing
+This repository is not maintained. Feel free to fork and implement own updates. 
+
+## License
+This project is licensed inder the MIT License. See the LICENSE file for details.
+
+## Author
+**Lucas Hunter** -Initial work and updates
